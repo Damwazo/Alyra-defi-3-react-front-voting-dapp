@@ -10,6 +10,15 @@ module.exports = {
       port: 8545, // Standard Ethereum port (default: none)
       network_id: "*", // Any network (default: none)
     },
+    ropsten: {
+      provider: function () {
+        return new HDWalletProvider(
+          `${process.env.MNEMONIC}`,
+          `https://ropsten.infura.io/v3/${process.env.INFURA_ID}`
+        );
+      },
+      network_id: 3,
+    },
   },
 
   // Set default mocha options here, use special reporters etc.

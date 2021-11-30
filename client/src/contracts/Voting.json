@@ -28770,6 +28770,12 @@
     "version": "0.8.7+commit.e28d00a7.Emscripten.clang"
   },
   "networks": {
+    "3": {
+      "events": {},
+      "links": {},
+      "address": "0x5d75BdCe41fe755612174Ba30e58431a6676457F",
+      "transactionHash": "0x75db1b653b0fcdd3df98050b0b39ac0f1a37c8d4a08c359330e09c3ffe0a071d"
+    },
     "1638129507347": {
       "events": {},
       "links": {},
@@ -28802,7 +28808,7 @@
     }
   },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-11-29T21:59:12.742Z",
+  "updatedAt": "2021-11-30T00:20:15.450Z",
   "networkType": "ethereum",
   "devdoc": {
     "author": "Cyril Castagnet",
